@@ -1,4 +1,4 @@
-[WorkDonebyMapAndLambda (1).md](https://github.com/sharmistharanit/23-Homework3G4/files/12826582/WorkDonebyMapAndLambda.1.md)[pylint_output_WorkDone.txt](https://github.com/sharmistharanit/23-Homework3G4/files/12810929/pylint_output_WorkDone.txt)**Background:**
+[EgOfMapGenLambda.md](https://github.com/sharmistharanit/23-Homework3G4/files/12826608/EgOfMapGenLambda.md)[WorkDonebyMapAndLambda (1).md](https://github.com/sharmistharanit/23-Homework3G4/files/12826582/WorkDonebyMapAndLambda.1.md)[pylint_output_WorkDone.txt](https://github.com/sharmistharanit/23-Homework3G4/files/12810929/pylint_output_WorkDone.txt)**Background:**
 A brief introduction of lambda function and map function is given.
 
 **Lambda Function:**
@@ -13,6 +13,67 @@ The map() function in Python is used to apply a given function to all elements o
 **Generator function**
 In Python, a generator function is a special type of function that allows you to iterate over a potentially large sequence of values without generating and storing them all in memory at once. Instead of using the return keyword to return a single result, a generator function uses the yield keyword to yield a series of values one at a time.
 
+
+
+[Uploading```python
+# Map function
+def add(x, y):
+    return x + y
+
+# Create two lists of numbers
+list1 = [1, 2, 3, 4]
+list2 = [10, 20, 30, 40]
+
+# Use the map() function to add corresponding elements from the two lists
+sums = map(add, list1, list2)
+
+# Convert the result to a list (or iterate over it directly)
+sums_list = list(sums)
+
+# Output the sums
+print(sums_list)  
+
+
+
+
+```
+
+    [11, 22, 33, 44]
+
+
+
+```python
+# Generator function
+
+my_generator = (x for x in range(1, 4))
+
+for value in my_generator:
+    print(value)
+```
+
+    1
+    2
+    3
+
+
+
+```python
+# lambda function
+square = lambda x: x * x
+
+# Use the lambda function to square a number
+result = square(5)
+print(result) 
+```
+
+    25
+
+
+
+```python
+
+```
+ EgOfMapGenLambda.md…]()
 
 This Python script defines a function for calculating work done by a car as a function of its velocities and mass.
 It also includes a test function to ensure the correctness of the work calculation function.
