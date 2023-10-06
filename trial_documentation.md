@@ -19,10 +19,7 @@ __Code:__
 
 
 
-[WorkDoneByLambdaFn.md](https://github.com/sharmistharanit/23-Homework3G4/files/12794686/WorkDoneByLambdaFn.md)```python
-def calculate_work(initial_ke, final_ke):
-    return final_ke - initial_ke
-```
+[WorkDoneByLambdaFn.md](https://github.com/sharmistharanit/23-Homework3G4/files/12794686/WorkDoneByLambdaFn.md)
 
 
 ```python
@@ -47,4 +44,3 @@ calculate_and_print_work(initial_ke, final_ke, work_function)
 ```python
 
 ```
-
