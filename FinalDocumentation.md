@@ -10,9 +10,7 @@ A lambda function, also known as an anonymous function or lambda expression, is 
  
 add = lambda x, y: x + y
 result = add(3, 5)
-print(result)  # Output: 8
-
-
+print(result)
 
 
 2)
@@ -33,6 +31,13 @@ The map() function in Python is used to apply a given function to all elements o
 numbers = [1, 2, 3, 4, 5]
 squared = list(map(lambda x: x**2, numbers))
 print(squared)  # Output: [1, 4, 9, 16, 25]
+
+**Generator function**
+In Python, a generator function is a special type of function that allows you to iterate over a potentially large sequence of values without generating and storing them all in memory at once. Instead of using the return keyword to return a single result, a generator function uses the yield keyword to yield a series of values one at a time.
+
+my_generator = (x for x in range(1, 4))
+for value in my_generator:
+print(value)
 
 
 
