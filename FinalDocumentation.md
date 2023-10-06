@@ -181,6 +181,29 @@ test_calculate_work_done()
 ```
 orkDonebyMapAndLambda (1).md…]()
 
+
+**Unit test 1:**
+1) We have created a list of velocities (list of float): A list of velocities (in m/s) at different points in time.
+
+2) As the final velocity is zero, the work done is negative.
+
+**Unit test 2**
+1) We have created a list of velocities where both initial and final velocity is zero.
+
+2) In that case, we got the first work done is zero as both the initial and final velocities are zero.
+
+3) We got the last work done is negative as the final velocity is zero.
+
+**Unit test 3**
+1) We have created a list of velocities where the velocity is decreasing continuously from the previous one. The value of  the final velocity is higher than the previous one.
+
+2) In that case, the values of work done are decreasing continuously.
+
+3) The final work done is positive.
+
+
+
+
 ![output_1_0](https://github.com/sharmistharanit/23-Homework3G4/assets/143737948/2bb3b4f0-59dd-48a1-8830-777e22dc304c)
 
 **Pylint Output**
