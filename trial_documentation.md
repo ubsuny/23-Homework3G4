@@ -1,3 +1,4 @@
+#Description
 We created a Python function to calculate the work done using initial and final kinetic energy, and then we'll use this function as an argument in another function using lambda functions and functional programming concepts.
 Work done = Final kinetic energy - initial kinetic energy
 
