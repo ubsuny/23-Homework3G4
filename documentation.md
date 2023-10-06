@@ -1,3 +1,7 @@
+**Introduction to the example**
+Calculating work done. we can also call in work energy theorem. $W=\Delta K E$
+Work can be calculated through many other ways but if we have a moving objects with a certain mass and has different velocities at different positions, we can apply work energy theore, and calculate work done. 
+$W=\Delta K E$, Here, W is the work done, KE \Delta KE is change in kinetic energy. Here in this example, the change occurese due to change in velocities, mass remains the same. if can be furher simplified by deviding the kinetic energy into KE_before and KE_after and do the calculations.  
 **Background:**
 A brief introduction of lambda function and map function is given.
 
