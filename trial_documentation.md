@@ -37,7 +37,7 @@ work_function = lambda initial_ke, final_ke: final_ke - initial_ke
 calculate_and_print_work(initial_ke, final_ke, work_function)
 ```
 
-    Work done: 70 Joules
+    Output: Work done: 70 Joules
 
 
 
